@@ -1,6 +1,6 @@
 # Project Game 
 
-## Môn đồ án cơ ở Trường Đại học Phenikaa
+## Môn đồ án cơ sở Trường Đại học Phenikaa
 
 ### Thành viên:
 

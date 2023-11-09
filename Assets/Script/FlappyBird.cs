@@ -6,6 +6,9 @@ using UnityEngine.SceneManagement;
 
 public class FlappyBird : MonoBehaviour
 {
+    public AudioSource flySound;
+    public AudioSource hitSound;
+    public AudioSource dieSound;
 
     Rigidbody2D rg;
 
@@ -24,7 +27,9 @@ public class FlappyBird : MonoBehaviour
         if (Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.Space))
         {
             rg.AddForce(Vector2.up * speed);
+            flySound.Play();   
         }
+     
     }
 
     public void resetGame()
@@ -36,11 +41,13 @@ public class FlappyBird : MonoBehaviour
     {
         gameOverOjb.SetActive(true);
         Time.timeScale = 0;
+        dieSound.Play();
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
         GameOver();
+        hitSound.Play();
     }
 
     

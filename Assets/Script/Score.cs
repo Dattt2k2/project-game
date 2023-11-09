@@ -7,6 +7,7 @@ public class Score : MonoBehaviour
 {
     public int score;
     public Text text;
+    public AudioSource pointSound;
 
     private void start()
     {
@@ -18,6 +19,7 @@ public class Score : MonoBehaviour
     {
         score++;
         text.text = score.ToString();
+        pointSound.Play();
     }
 
     private void onDestroy()

@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class FlappyBird : MonoBehaviour
 {
+
     Rigidbody2D rg;
 
     public GameObject gameOverOjb;
@@ -41,4 +42,6 @@ public class FlappyBird : MonoBehaviour
     {
         GameOver();
     }
+
+    
 }

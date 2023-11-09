@@ -42,5 +42,5 @@ public class Shop
 {
     public int price;
     public Sprite hud;
-    public FlappyBird player;
+    public FlappyBird playerPb;
 }

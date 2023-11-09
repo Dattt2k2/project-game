@@ -10,7 +10,7 @@ public class ShopItem : MonoBehaviour
     public Button btn;
 
 
-    public void UpadateUI(Shop item, int shopItemId)
+    public void UpdateUI(Shop item, int shopItemId)
     {
         if (item == null) return;
 

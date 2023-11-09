@@ -98,7 +98,7 @@ Animator:
   m_GameObject: {fileID: 1156794160930636078}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 4546d797398caca4c942c8bd7b7ed026, type: 2}
+  m_Controller: {fileID: 9100000, guid: 49a4a9c39cf73e54d94de2b6cab2aaec, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -146,7 +146,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.34, y: 0.24}
+    oldSize: {x: 0.85, y: 0.6}
     newSize: {x: 0.34, y: 0.24}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -167,5 +167,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 223d60d3b1fa5bd45a4eb199aa24b05e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameOverOjb: {fileID: 0}
+  gameOverOjb: {fileID: 7501323334373870105, guid: 0b89db00c7b2c75439b6e40d96ac4e62, type: 3}
   speed: 200

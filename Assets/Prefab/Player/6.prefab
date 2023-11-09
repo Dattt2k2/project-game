@@ -167,5 +167,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 223d60d3b1fa5bd45a4eb199aa24b05e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameOverOjb: {fileID: 0}
+  gameOverOjb: {fileID: 7501323334373870105, guid: 0b89db00c7b2c75439b6e40d96ac4e62, type: 3}
   speed: 200

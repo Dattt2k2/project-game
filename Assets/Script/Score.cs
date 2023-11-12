@@ -20,6 +20,12 @@ public class Score : MonoBehaviour
         score++;
         text.text = score.ToString();
         pointSound.Play();
+
+
+        Pref.Coins += 1;
+        PlayerPrefs.SetInt("Coins", Pref.Coins);
+
+        Debug.Log(Pref.Coins);
     }
 
     private void onDestroy()

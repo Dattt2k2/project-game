@@ -40,3 +40,4 @@ public class GameManage : Singleton<GameManage>
         }
     }*/
 }
+
